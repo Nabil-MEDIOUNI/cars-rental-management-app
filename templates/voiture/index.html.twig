@@ -12,7 +12,7 @@
     <h1>Voitures</h1>
 <ul>
 {% for voiture in voitures %}
-<li style="color: 'red'">{{voiture.marque|e}} {{voiture.couleur|e}} {{voiture.Description|e}} {{voiture.nbrplace|e}}Places </li>
+<li style="color: 'red'">{{voiture.marque|e}} {{voiture.couleur|e}} {{voiture.Description|e}} {{voiture.nbrplace|e}}Place <button type="submit">louer</button></li>
 
 {% endfor %}
 </ul>
